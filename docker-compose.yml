@@ -1,10 +1,12 @@
 services:
   app1: 
+    image: ghcr.io/callmemessiah/deploy-test:latest
     build: ./app
     environment:
       INSTANCE_NAME: app1
     
-  app2: 
+  app2:
+    image: ghcr.io/callmemessiah/deploy-test:latest
     build: ./app
     environment:
       INSTANCE_NAME: app2
